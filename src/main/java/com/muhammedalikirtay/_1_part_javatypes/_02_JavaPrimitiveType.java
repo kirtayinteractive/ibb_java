@@ -4,7 +4,7 @@ public class _02_JavaPrimitiveType {
 
     public static void main(String[] args) {
         byte b1=127;
-        System.out.println("byte"+b1);
+        System.out.println("byte: "+b1);
 
         short s1=32767;
         System.out.println("short: "+s1);
@@ -28,7 +28,7 @@ public class _02_JavaPrimitiveType {
 
         // char
         char c4= '\u4125';
-        System.out.println("char: "+c4);
+        System.out.println("char: " +c4);
     }
 
 }
