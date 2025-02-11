@@ -1,4 +1,4 @@
-package com.muhammedalikirtay._1_part_javatypes;
+package com.muhammedalikirtay._1_week;
 
 public class _03_Variables {
     public static void main(String[] args) {
