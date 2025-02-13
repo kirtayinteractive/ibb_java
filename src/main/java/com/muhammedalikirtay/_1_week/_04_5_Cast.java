@@ -20,5 +20,21 @@ public class _04_5_Cast {
         int cast3Int=38;
         char ascii2=(char)cast3Int;
         System.out.println(cast3Int+" ascii karşılığı:"+ascii2);
+
+    //4- String =>int
+        String cast4String="10";
+        int cast4Int1=Integer.valueOf(cast4String);
+        int cast4Int2=Integer.parseInt(cast4String);
+        System.out.println(cast4String+20);
+        System.out.println(cast4Int1+20);
+        System.out.println(cast4Int2+20);
+
+       // 5- int=> String
+
+        int cast5Int=55;
+        String cast5String1=String.valueOf(cast5Int);
+        String cast5String2=cast5String1.toString();
+        System.out.println(cast5String1);
+        System.out.println(cast5String2);
     }
 }
